@@ -4,7 +4,7 @@ import { guest } from './guest.js';
 import { theme } from './theme.js';
 import { audio } from './audio.js';
 import { offline } from './offline.js';
-import { comment } from './comment.js';
+// import { comment } from './comment.js';
 import { progress } from './progress.js';
 import { pagination } from './pagination.js';
 
@@ -22,6 +22,6 @@ document.addEventListener('DOMContentLoaded', () => {
     window.guest = guest;
     window.theme = theme;
     window.audio = audio;
-    window.comment = comment;
+    // window.comment = comment;
     window.pagination = pagination;
 });
