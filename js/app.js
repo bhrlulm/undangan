@@ -1,4 +1,4 @@
-import { util } from './util.js';
+// import { util } from './util.js';
 import { like } from './like.js';
 import { guest } from './guest.js';
 import { theme } from './theme.js';
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.AOS.init();
 
     window.like = like;
-    window.util = util;
+    // window.util = util;
     window.guest = guest;
     window.theme = theme;
     window.audio = audio;
